@@ -25,6 +25,29 @@
 - 想直接网页阅读：打开 [guide/index.html](guide/index.html)
 - 想看拆分版目录：读 [guide/README.md](guide/README.md)
 
+## 学习路线图
+
+### 7 天速刷路线
+
+| 天数 | 重点章节 | 目标 |
+|------|----------|------|
+| Day 1 | [基础概念](guide/01_fundamentals.md) + [LLM 底层原理](guide/02_llm_foundations.md) | 建立 Agent、LLM、Chatbot、RAG 的边界感 |
+| Day 2 | [Agent 设计模式](guide/03_agent_patterns.md) + [规划与推理](guide/07_planning_and_reasoning.md) | 掌握 ReAct、Plan-and-Execute、Reflection、Replanning 等核心模式 |
+| Day 3 | [工具调用与 Function Calling](guide/04_tool_calling.md) + [记忆系统设计](guide/05_memory_systems.md) | 理解工具 schema、权限边界、短期记忆、长期记忆与上下文压缩 |
+| Day 4 | [RAG 与 Agentic RAG](guide/06_rag_and_agentic_rag.md) | 能讲清传统 RAG、Agentic RAG、多轮检索、重排与评估 |
+| Day 5 | [多 Agent 协作](guide/08_multi_agent.md) + [系统设计与架构](guide/09_system_design.md) | 训练系统设计题，重点关注编排、状态、恢复、幂等和成本 |
+| Day 6 | [评估与可观测性](guide/10_evals_and_observability.md) + [安全与治理](guide/11_safety_and_governance.md) + [生产环境与 MLOps](guide/13_production_and_mlops.md) | 补齐生产落地能力，包括日志、指标、权限、灰度、回滚和评测闭环 |
+| Day 7 | [前沿热点](guide/14_frontier_topics.md) + [工程补充专题](guide/15_engineering_addendum.md) + [面试策略建议](guide/16_interview_strategy.md) | 整理高频追问，把书面答案转成能说出口的项目化表达 |
+
+### 4 周系统复习路线
+
+| 周次 | 复习重点 | 建议产出 |
+|------|----------|----------|
+| 第 1 周 | 基础概念、LLM 原理、Agent Loop、常见失败模式 | 整理 20 个一句话核心结论 |
+| 第 2 周 | Tool Calling、Memory、RAG、Planning、多 Agent | 每章挑 3 道题练成 1 分钟口头回答 |
+| 第 3 周 | 系统设计、Evals、Observability、Safety、MLOps | 准备 2 套完整 Agent 系统设计回答模板 |
+| 第 4 周 | 前沿热点、工程专题、面试策略、个人项目复盘 | 把自己的项目经历改写成 STAR + 架构 + 指标版本 |
+
 ## 仓库结构
 
 - [guide/](guide/)
