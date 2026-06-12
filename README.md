@@ -19,6 +19,8 @@
 
 ## 快速开始
 
+- 线上访问地址：[https://emberravager.github.io/agent-interview/](https://emberravager.github.io/agent-interview/)
+- 学习页直达地址：[https://emberravager.github.io/agent-interview/guide/](https://emberravager.github.io/agent-interview/guide/)
 - 想先看全局框架：读 [guide/00_overview.md](guide/00_overview.md)
 - 想按体系系统复习：从 [guide/01_fundamentals.md](guide/01_fundamentals.md) 顺序看到 [guide/16_interview_strategy.md](guide/16_interview_strategy.md)
 - 想直接网页阅读：打开 [guide/index.html](guide/index.html)
