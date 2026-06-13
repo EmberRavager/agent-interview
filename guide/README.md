@@ -15,9 +15,10 @@
 ## 使用建议
 
 - 想快速总览：先看 [00_overview.md](./00_overview.md)
-- 想按知识体系复习：从 `01` 到 `17` 顺序看
+- 想按知识体系复习：从 `01` 到 `18` 顺序看
 - 想练回答方式：重点看 [16_interview_strategy.md](./16_interview_strategy.md)
 - 想速刷近期线上高频题：重点看 [17_recent_agent_interview_questions_2026.md](./17_recent_agent_interview_questions_2026.md)
+- 想补后端基本功：重点看 [18_distributed_redis_high_concurrency.md](./18_distributed_redis_high_concurrency.md)
 
 ## 章节目录
 
@@ -38,6 +39,7 @@
 15. [2026 工程补充专题](./15_engineering_addendum.md)
 16. [面试策略建议](./16_interview_strategy.md)
 17. [2026 近期线上题库补充](./17_recent_agent_interview_questions_2026.md)
+18. [分布式 / 高并发 / Redis 队列面试题补充](./18_distributed_redis_high_concurrency.md)
 
 ## 说明
 
