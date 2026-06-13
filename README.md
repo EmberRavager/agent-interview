@@ -21,10 +21,11 @@
 
 - 线上访问地址：[https://emberravager.github.io/agent-interview/guide/](https://emberravager.github.io/agent-interview/guide/)
 - 想先看全局框架：读 [guide/00_overview.md](guide/00_overview.md)
-- 想按体系系统复习：从 [guide/01_fundamentals.md](guide/01_fundamentals.md) 顺序看到 [guide/17_recent_agent_interview_questions_2026.md](guide/17_recent_agent_interview_questions_2026.md)
+- 想按体系系统复习：从 [guide/01_fundamentals.md](guide/01_fundamentals.md) 顺序看到 [guide/18_distributed_redis_high_concurrency.md](guide/18_distributed_redis_high_concurrency.md)
 - 想直接网页阅读：打开 [guide/index.html](guide/index.html)
 - 想看拆分版目录：读 [guide/README.md](guide/README.md)
 - 想速刷近期线上高频题：读 [guide/17_recent_agent_interview_questions_2026.md](guide/17_recent_agent_interview_questions_2026.md)
+- 想补后端基本功：读 [guide/18_distributed_redis_high_concurrency.md](guide/18_distributed_redis_high_concurrency.md)
 
 ## 学习路线图
 
@@ -38,7 +39,7 @@
 | Day 4 | [RAG 与 Agentic RAG](guide/06_rag_and_agentic_rag.md) | 能讲清传统 RAG、Agentic RAG、多轮检索、重排与评估 |
 | Day 5 | [多 Agent 协作](guide/08_multi_agent.md) + [系统设计与架构](guide/09_system_design.md) | 训练系统设计题，重点关注编排、状态、恢复、幂等和成本 |
 | Day 6 | [评估与可观测性](guide/10_evals_and_observability.md) + [安全与治理](guide/11_safety_and_governance.md) + [生产环境与 MLOps](guide/13_production_and_mlops.md) | 补齐生产落地能力，包括日志、指标、权限、灰度、回滚和评测闭环 |
-| Day 7 | [前沿热点](guide/14_frontier_topics.md) + [工程补充专题](guide/15_engineering_addendum.md) + [面试策略建议](guide/16_interview_strategy.md) + [2026 近期线上题库补充](guide/17_recent_agent_interview_questions_2026.md) | 整理高频追问，把书面答案转成能说出口的项目化表达 |
+| Day 7 | [前沿热点](guide/14_frontier_topics.md) + [工程补充专题](guide/15_engineering_addendum.md) + [面试策略建议](guide/16_interview_strategy.md) + [2026 近期线上题库补充](guide/17_recent_agent_interview_questions_2026.md) + [分布式 Redis 高并发](guide/18_distributed_redis_high_concurrency.md) | 整理高频追问，把书面答案转成能说出口的项目化表达 |
 
 ### 4 周系统复习路线
 
@@ -46,7 +47,7 @@
 |------|----------|----------|
 | 第 1 周 | 基础概念、LLM 原理、Agent Loop、常见失败模式 | 整理 20 个一句话核心结论 |
 | 第 2 周 | Tool Calling、Memory、RAG、Planning、多 Agent | 每章挑 3 道题练成 1 分钟口头回答 |
-| 第 3 周 | 系统设计、Evals、Observability、Safety、MLOps | 准备 2 套完整 Agent 系统设计回答模板 |
+| 第 3 周 | 系统设计、Evals、Observability、Safety、MLOps、分布式与 Redis | 准备 2 套完整 Agent 系统设计回答模板 |
 | 第 4 周 | 前沿热点、工程专题、面试策略、个人项目复盘、近期线上高频题 | 把自己的项目经历改写成 STAR + 架构 + 指标版本 |
 
 ## 仓库结构
@@ -59,6 +60,8 @@
   拆分资料重新整合后的完整 Markdown 版
 - [guide/17_recent_agent_interview_questions_2026.md](guide/17_recent_agent_interview_questions_2026.md)
   基于近期公开资料、官方文档和论文趋势整理的 2026 Agent 开发面试题库补充
+- [guide/18_distributed_redis_high_concurrency.md](guide/18_distributed_redis_high_concurrency.md)
+  面向 Agent 工程落地的分布式、高并发、Redis 缓存、队列、限流和幂等专项题库
 - [ai_agent_interview_guide.md](ai_agent_interview_guide.md)
   原始整合版 Markdown
 - [ai_agent_interview_guide.html](ai_agent_interview_guide.html)
@@ -85,6 +88,7 @@
 15. [2026 工程补充专题](guide/15_engineering_addendum.md)
 16. [面试策略建议](guide/16_interview_strategy.md)
 17. [2026 近期线上题库补充](guide/17_recent_agent_interview_questions_2026.md)
+18. [分布式 / 高并发 / Redis 队列面试题补充](guide/18_distributed_redis_high_concurrency.md)
 
 ## 这份资料的特点
 
