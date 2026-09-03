@@ -1,47 +1,50 @@
-# AI Agent 面试文档索引
+# Agent Engineering Handbook · 2026
 
-这版已经按章节拆成多份 Markdown，后续改题目、补答案、做专项版本会更轻松。
+> 更新时间：2026-09-03
 
-当前推荐的统一写法：
+这套资料已经完全重构，不再保留旧的“150+ 面试题百科”结构。
 
-- `核心结论`
-- `理解重点`
-- `结构化要点`
-- `标准回答示例`
-- `追问点`
+## 学习地图
 
-模板见 [guide/_TEMPLATE.md](./_TEMPLATE.md)
+```text
+01 Agent Foundations
+        ↓
+02 Context Engineering
+        ↓
+03 Tools / MCP / Skills / A2A
+        ↓
+04 Runtime / Durable Execution
+        ↓
+05 Harness / Coding / Computer Use
+        ↓
+06 Safety / Permission / HITL
+        ↓
+07 Observability / Evals
+        ↓
+08 Production System Design
+        ↓
+09 Interview Roadmap
+```
 
-## 使用建议
+## 章节入口
 
-- 想快速总览：先看 [00_overview.md](./00_overview.md)
-- 想按知识体系复习：从 `01` 到 `18` 顺序看
-- 想练回答方式：重点看 [16_interview_strategy.md](./16_interview_strategy.md)
-- 想速刷近期线上高频题：重点看 [17_recent_agent_interview_questions_2026.md](./17_recent_agent_interview_questions_2026.md)
-- 想补后端基本功：重点看 [18_distributed_redis_high_concurrency.md](./18_distributed_redis_high_concurrency.md)
+- [00 · 总览](00_overview.md)
+- [01 · Agent 基础与模型能力](01_agent_foundations.md)
+- [02 · Context Engineering](02_context_engineering.md)
+- [03 · Tools、MCP、Skills 与 A2A](03_tools_protocols.md)
+- [04 · Agent Runtime 与 Durable Execution](04_runtime_durable_execution.md)
+- [05 · Harness、Coding Agent 与 Computer Use](05_harness_coding_agents.md)
+- [06 · Safety、Permission 与 HITL](06_safety_permission_hitl.md)
+- [07 · Observability、Tracing 与 Evals](07_observability_evals.md)
+- [08 · Production System Design](08_production_system_design.md)
+- [09 · 2026 面试路线与技术雷达](09_interview_roadmap.md)
 
-## 章节目录
+## 学习原则
 
-1. [基础概念](./01_fundamentals.md)
-2. [LLM 底层原理](./02_llm_foundations.md)
-3. [Agent 设计模式](./03_agent_patterns.md)
-4. [工具调用与 Function Calling](./04_tool_calling.md)
-5. [记忆系统设计](./05_memory_systems.md)
-6. [RAG 与 Agentic RAG](./06_rag_and_agentic_rag.md)
-7. [规划与推理](./07_planning_and_reasoning.md)
-8. [多 Agent 协作](./08_multi_agent.md)
-9. [系统设计与架构](./09_system_design.md)
-10. [评估与可观测性](./10_evals_and_observability.md)
-11. [安全与治理](./11_safety_and_governance.md)
-12. [训练微调与对齐](./12_training_and_alignment.md)
-13. [生产环境与 MLOps](./13_production_and_mlops.md)
-14. [2025-2026 前沿热点](./14_frontier_topics.md)
-15. [2026 工程补充专题](./15_engineering_addendum.md)
-16. [面试策略建议](./16_interview_strategy.md)
-17. [2026 近期线上题库补充](./17_recent_agent_interview_questions_2026.md)
-18. [分布式 / 高并发 / Redis 队列面试题补充](./18_distributed_redis_high_concurrency.md)
-
-## 说明
-
-- 原始整合版仍保留在 [ai_agent_interview_guide.md](../ai_agent_interview_guide.md)
-- 拆分版更适合继续补“理解重点”和“一段话回答示例”
+1. 先理解控制流和系统边界，再学框架 API。
+2. RAG、Multi-Agent、Fine-tuning 都不是默认中心。
+3. Tool 必须和权限、幂等、重试、审计一起学。
+4. 长任务必须考虑 checkpoint / resume。
+5. Coding / Browser Agent 必须强调 sandbox 与 verification。
+6. 所有线上失败都应该进入 Eval Flywheel。
+7. 最终用 completion rate、latency、cost、reliability 和 safety 衡量系统。
